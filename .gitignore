@@ -1,0 +1,26 @@
+# Окружение (Virtual Environment)
+venv/
+ENV/
+env/
+.venv/
+
+# Конфиденциальные данные
+.env
+
+# Python (Кэш и байт-код)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# База данных 
+*.db
+*.sqlite3
+
+# Временные файлы Excel (Результаты работы бота)
+order_*.xlsx
+!template.xlsx
+
+# Настройки редакторов
+.vscode/
+.idea/
+.DS_Store
